@@ -11,5 +11,6 @@ const createImageUrl = (id: string) =>
 
 export const CustomImage: FC<PropsType> = ({ imageId, ...props }) => {
   const imageUrl = useMemo(() => createImageUrl(imageId), [imageId]);
+  //   @ts-ignore
   return <Image src={imageUrl} {...props} />;
 };
