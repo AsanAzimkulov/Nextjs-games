@@ -1,0 +1,15 @@
+.container {
+  width: 183px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-content: center;
+  padding-bottom: 20px;
+  cursor: pointer;
+  text-align: center;
+
+  .title {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
